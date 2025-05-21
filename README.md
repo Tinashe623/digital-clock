@@ -17,4 +17,4 @@ A futuristic **digital clock** built with **React and CSS**, featuring **neon gl
 ## 💾 Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/digital-clock.git
+   git clone https://github.com/Tinashe623/digital-clock.git
