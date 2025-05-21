@@ -1,0 +1,41 @@
+/* Main container styling */
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff;
+}
+
+/* Clock styling */
+.clock {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Neon glow effect */
+.clock span {
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #00f, 0 0 40px #00f;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.clock:hover span {
+  transform: scale(1.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .clock {
+    font-size: 2rem;
+    padding: 15px 30px;
+  }
+}
